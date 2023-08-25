@@ -25,6 +25,9 @@ a {
     font-style: normal;
     color: var(--main-text-color);
 }
+.container {
+    width: 1200px;
+}
 /* logo */
 .logo {
     color: var(--blue-color);

@@ -19,7 +19,9 @@ body {
         line-height: normal;
         /* letter-spacing: 0.42px; */
 }
-ul {list-style: none;}
+ul {list-style: none;
+        /* padding-inline-start: 0; */
+    }
 a {
     text-decoration: none;
     font-style: normal;
@@ -66,8 +68,8 @@ font-style: normal;
     justify-content:center ;
     align-items:center;
 } */
-/* logo */
 
+/* logo */
 .logo {
     font-family: Raleway;
     font-size: 26px;
@@ -115,17 +117,17 @@ footer .logo span {
     /* justify-content: space-between; */
     /* flex-direction: row */
 }
-header li {display: inline-block;
-}
+header li {display: inline-block;}
 .site-nav {
-    margin-left: 203;
+    margin-left: 3px;
     /* display: inline-block; */
     /* width: 281px; */
 }
 .site-nav li{
     font-weight: 500;
     letter-spacing: 0.28px;
-    padding-left: 50px;
+    margin-left: 50px;
+    outline: 1px solid red;
     /* display: inline-block; */
     
  }

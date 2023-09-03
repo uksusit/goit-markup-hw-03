@@ -41,6 +41,7 @@ h1, h2, h3, p {margin: 0;}
 header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header {
         padding-top: 24px;
@@ -143,11 +144,16 @@ header li {display: inline-block;}
     color: var(--blue-color);
 }
 
-/* menu filter */
+/* menu filter portfolio */
+.menu-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .menu-filter li{
     display: inline-block;
    /* align-items:  center; */
-   outline: 1px solid red;
+   /* outline: 1px solid red; */
 
 }
 .menu-filter li + li {
@@ -176,14 +182,39 @@ header li {display: inline-block;}
 }
 
 /* project-list */
+.pjcts {
+    padding-top: 94px;
+}
+.pjcts img {
+    display: block;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+.projects li {
+    border: 1px solid #EEE;
+        background: #FFF;
+        margin-bottom: 30px;
+}
   .pjct-name { 
+    padding-top: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 1.08px;
     color: var(--main-text-color);
+        outline: 1px solid red;
 }
 .project .type {
+    padding-bottom: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.875;
@@ -308,7 +339,7 @@ margin-left: 30px;
         line-height: normal; */
 }
 /* footer */
-footer { 
+footer { padding-top: 60px;
     width: 1600px;
     height: 252px;
     background-color: var(--footer-bg-color);

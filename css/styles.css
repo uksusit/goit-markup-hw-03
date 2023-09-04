@@ -27,6 +27,7 @@ a {
     text-decoration: none;
     font-style: normal;
     color: var(--main-text-color);
+    /* margin: 0; */
 }
 h1, h2, h3, p {margin: 0;}
 
@@ -339,18 +340,52 @@ margin-left: 30px;
         line-height: normal; */
 }
 /* footer */
-footer { padding-top: 60px;
+footer { 
+        padding-top: 60px;
+        padding-bottom: 60px;
     width: 1600px;
     height: 252px;
     background-color: var(--footer-bg-color);
-    /* flex-shrink: 0; */
+    /* flex-shrink: 0; */ 
+}
+/* footer .logo {
+    display: inline-block
+margin-bottom: 20px;
+} */
+footer a {   
+    /* outline: 1px solid red; */
+        /* flex-shrink: 0; */  
 }
 /* footer address */ 
+.ftr-adr { 
+    /* outline: 1px solid red; */
+            height: 81px; 
+            width: 231px;
+            margin-top: 20px;
+            /* margin-block-start: 0;
+                margin-block-end: 0; */
+                box-sizing: content-box;
+
+}
+.ftr-adr  li {      
+     /* outline: 1px solid red; */
+    display: block;   
+    width: 231px;
+    height: 21px;
+    /* flex-shrink: 0; */
+     /* align-content: flex-end; */
+   /* margin-top: 9px; */
+}
+.ftr-adr li + li {
+    margin-top: 9px;
+    /* margin-bottom: 9px; */
+}
 .addr-gmap { 
     line-height: 1.71429;
     letter-spacing: 0.42px;
     color: var(--white-color);
     /* background-color: var(--footer-bg-color); */
+ 
 }
 .footer-cont {
     line-height:  1.71429; 

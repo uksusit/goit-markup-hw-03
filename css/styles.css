@@ -34,9 +34,9 @@ h1, h2, h3, p {margin: 0;}
 /* content centring */
 .container {
     width: 1200px;
-    outline: 1px solid red; 
     margin-left: 200px;
     margin-right: 200px;
+    /* outline: 1px solid red;  */
 }
 /* header */
 header .container {
@@ -132,7 +132,7 @@ header li {display: inline-block;}
     font-weight: 500;
     letter-spacing: 0.28px;
     margin-left: 50px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     /* display: inline-block; */
     
  }
@@ -200,6 +200,9 @@ header li {display: inline-block;}
         background: #FFF;
         margin-bottom: 30px;
 }
+.projects .project:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
   .pjct-name { 
     padding-top: 20px;
         margin-left: 24px;
@@ -210,7 +213,7 @@ header li {display: inline-block;}
     line-height: 2;
     letter-spacing: 1.08px;
     color: var(--main-text-color);
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
 }
 .project .type {
     padding-bottom: 20px;
@@ -352,10 +355,10 @@ footer {
     display: inline-block
 margin-bottom: 20px;
 } */
-footer a {   
-    /* outline: 1px solid red; */
-        /* flex-shrink: 0; */  
-}
+/* footer a {   
+    outline: 1px solid red;
+} */
+
 /* footer address */ 
 .ftr-adr { 
     /* outline: 1px solid red; */
@@ -372,9 +375,6 @@ footer a {
     display: block;   
     width: 231px;
     height: 21px;
-    /* flex-shrink: 0; */
-     /* align-content: flex-end; */
-   /* margin-top: 9px; */
 }
 .ftr-adr li + li {
     margin-top: 9px;

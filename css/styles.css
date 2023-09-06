@@ -183,8 +183,9 @@ header li {display: inline-block;}
 }
 
 /* project-list */
+
 .pjcts {
-    padding-top: 94px;
+    /* padding-top: 94px; */
 }
 .pjcts img {
     display: block;
@@ -193,7 +194,7 @@ header li {display: inline-block;}
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
 .projects li {
         background: #FFF;
@@ -241,7 +242,7 @@ header li {display: inline-block;}
         /* flex-shrink: 0; */
         background: var(--footer-bg-color);  /* тимчасово? */
         text-align: center;
-       margin-bottom: 94px;
+       /* margin-bottom: 94px; */
 }
 .title-hero {
         text-align: center;
@@ -258,8 +259,13 @@ header li {display: inline-block;}
 
 /* sections first page*/
 
-
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.features.section {
+    padding-bottom: 0;
+}
 .features .title {
     font-weight: 700;
     font-size: 14px;
@@ -290,7 +296,7 @@ header li {display: inline-block;}
 .section ul {
 display: flex;
 justify-content: space-between;
-margin-bottom: 94px;
+/* margin-bottom: 94px; */
 }
 .section li + li {
 margin-left: 30px;
@@ -310,7 +316,7 @@ margin-left: 30px;
     height: 648px;
     /* flex-shrink: 0; */
     background: var(--btn-bg-color);
-    padding-top: 94px;
+    /* padding-top: 94px; */
 }
 .team li {
     display: inline-block;

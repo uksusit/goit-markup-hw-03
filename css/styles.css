@@ -193,56 +193,6 @@ header li {display: inline-block;}
     box-shadow: 0px 4px 4px 0px var(--btn-shadow);
 }
 
-/* project-list */
-
-.pjcts {
-    /* padding-top: 94px; */
-}
-.pjcts img {
-    display: block;
-}
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* padding-bottom: 94px; */
-}
-.projects li {
-        background: #FFF;
-        margin-bottom: 30px;
-}
-.brdr {
-    border-bottom: 1px solid #EEE;
-    border-left: 1px solid #EEE;
-    border-right: 1px solid #EEE;
-}
-.projects .project:nth-last-child(-n+3) {
-    margin-bottom: 0;
-}
-  .pjct-name { 
-    padding-top: 20px;
-        margin-left: 24px;
-        margin-right: 24px;
-
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2;
-    letter-spacing: 1.08px;
-    color: var(--main-text-color);
-        /* outline: 1px solid red; */
-}
-.project .type {
-    padding-bottom: 20px;
-        margin-left: 24px;
-        margin-right: 24px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.875;
-    letter-spacing: 0.48px;
-    color: var(--gray-color);
-    /* font-family: Roboto;
-    font-style: normal; */
-}
    
 /* hero */
 .hero {
@@ -309,6 +259,7 @@ header li {display: inline-block;}
 /* common for section */
 .section ul {
 display: flex;
+outline: 1px solid red;
 /* justify-content: space-between; */
 /* margin-bottom: 94px; */
 }
@@ -370,12 +321,68 @@ margin-left: 30px;
         /* font-style: normal;
         line-height: normal; */
 }
+
+
+/* project-list */
+
+
+.pjcts img {
+    display: block;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -30px;
+    margin-bottom: -30px;
+    outline: 1px solid red;
+}
+.projects li {
+        background: #FFF;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        outline: 1px solid red;
+        flex-basis: (100% / 3);
+}
+.brdr {
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+}
+/* .projects .project:nth-last-child(-n+3) {
+    margin-bottom: 0;
+} */
+  .pjct-name { 
+    padding-top: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    color: var(--main-text-color);
+        outline: 1px solid red;
+}
+.project .type {
+    padding-bottom: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    letter-spacing: 0.48px;
+    color: var(--gray-color);
+    /* font-family: Roboto;
+    font-style: normal; */
+}
+
 /* footer */
 footer { 
         padding-top: 60px;
         padding-bottom: 60px;
-    width: 1600px;
-    height: 252px;
+    /* width: 1600px;
+    height: 252px; */
     background-color: var(--footer-bg-color);
     /* flex-shrink: 0; */ 
 }
@@ -390,19 +397,22 @@ margin-bottom: 20px;
 /* footer address */ 
 .ftr-adr { 
     /* outline: 1px solid red; */
-            height: 81px; 
-            width: 231px;
-            margin-top: 20px;
+            /* height: 81px; 
+            width: 231px; */
+
             /* margin-block-start: 0;
                 margin-block-end: 0; */
                 box-sizing: content-box;
 
 }
+address {
+                margin-top: 20px;
+}
 .ftr-adr  li {      
      /* outline: 1px solid red; */
-    display: block;   
-    width: 231px;
-    height: 21px;
+    /* display: block;    */
+    /* width: 231px;
+    height: 21px; */
 }
 .ftr-adr li + li {
     margin-top: 9px;

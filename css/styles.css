@@ -342,7 +342,7 @@ margin-left: 30px;
         margin-bottom: 30px;
         margin-left: 30px;
         /* outline: 1px solid red; */
-        flex-basis: (100% / 3);
+        /* flex-basis: (100% / 3); */
 }
 .brdr {
     border-bottom: 1px solid #EEE;
@@ -367,6 +367,7 @@ margin-left: 30px;
 }
 .project .type {
     /* margin-bottom: 20px; */
+    /* margin-top: 4px; */
         margin-left: 24px;
         margin-right: 24px;
     font-size: 16px;

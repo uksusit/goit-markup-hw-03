@@ -39,6 +39,7 @@ h1, h2, h3, p {margin: 0;}
     padding: 0 15px;
     /* outline: 1px solid red;  */
 }
+
 /* header */
 header .container {
     display: flex;
@@ -48,6 +49,44 @@ header .container {
 header {    
     border-bottom: 1px solid #ECECEC;
 }
+header li+li {
+    margin-left: 50px;
+}
+/* nav-menu */
+.nav {
+    display: flex;
+    align-items: center;
+}
+header li {
+    display: inline-block;
+}
+.site-nav {
+    margin-left: 93px;
+}
+.site-nav li {
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    /* outline: 1px solid red; */
+}
+
+/* .site-nav li + li {
+    margin-left: 50px;
+ } */
+.site-nav a {
+    display: block;
+    padding: 32px 0;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a::selection {
+    color: var(--blue-color);
+}
+
+.site-nav .current {
+    color: var(--blue-color);
+}
+
 
 /* header contacts */
 .header-contacts {
@@ -60,9 +99,6 @@ header {
     font-style: normal;
     */
 }
-.tel {
-    margin-left: 40px;
- }
 .header-contacts:hover,
 .header-contacts:focus {
     color: var(--blue-color);
@@ -115,37 +151,6 @@ footer .logo span {
     color: var(--blue-color); 
     background-color: var(--white-color);;
 } */
-
-/* nav-menu */
-.nav {
-    display: flex;
-    align-items: center;
-}
-header li {display: inline-block;
-}
-.site-nav {
-    margin-left: 93px;
-}
-.site-nav li{
-    font-weight: 500;
-    letter-spacing: 0.28px;
-    /* outline: 1px solid red; */
- }
- .site-nav li + li {
-    margin-left: 30px;
- }
- .site-nav a {
-    display: block;
-    padding: 32px 0;
- }
-.site-nav a:hover,
-.site-nav a:focus,
-.site-nav a::selection {
-    color: var(--blue-color);
-}
-.site-nav .current {
-    color: var(--blue-color);
-}
 
    
 /* hero */
@@ -339,12 +344,12 @@ margin-left: 30px;
     border-bottom: 1px solid #EEE;
     border-left: 1px solid #EEE;
     border-right: 1px solid #EEE;
-    padding: 20px 0;
+    padding: 20px 24px;
 }
 .pjct-name { 
     /* margin-top: 20px; */
-        margin-left: 24px;
-        margin-right: 24px;
+        /* margin-left: 24px;
+        margin-right: 24px; */
     margin-bottom: 4px;
     font-size: 18px;
     font-weight: 700;
@@ -356,8 +361,8 @@ margin-left: 30px;
 .project .type {
     /* margin-bottom: 20px; */
     /* margin-top: 4px; */
-        margin-left: 24px;
-        margin-right: 24px;
+        /* margin-left: 24px;
+        margin-right: 24px; */
     font-size: 16px;
     font-weight: 400;
     line-height: 1.875;
